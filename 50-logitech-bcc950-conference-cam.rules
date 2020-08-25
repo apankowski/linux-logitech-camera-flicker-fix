@@ -1,0 +1,6 @@
+SUBSYSTEM=="video4linux", \
+SUBSYSTEMS=="usb", \
+ATTRS{idVendor}=="046d", \
+ATTRS{idProduct}=="0837", \
+PROGRAM="/usr/bin/v4l2-ctl --set-ctrl power_line_frequency=1 --device /dev/%k", \
+SYMLINK+="bcc950"

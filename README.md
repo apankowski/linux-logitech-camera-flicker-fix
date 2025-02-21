@@ -20,3 +20,7 @@ sudo apt-get install v4l-utils
  1. Reconnect the camera.
 
 That's it!
+
+## Windows 10 Solution
+
+There used to be a setting in Microsoft Teams to do this but it was removed. You can acheive similar by installing the [Logitech Camera Settings](https://support.logi.com/hc/en-my/articles/360025290213-Logitech-Camera-Settings) app.
